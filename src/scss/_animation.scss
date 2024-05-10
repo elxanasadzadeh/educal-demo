@@ -39,3 +39,12 @@
       transform: translateY(-15px);
   }
   }
+
+  @keyframes hero-1-dot{
+    0% {
+      transform: translateY(-100px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+  }

@@ -240,53 +240,55 @@
         flex-direction: column;
         justify-content: center;
         padding: 0 12px;
-        h3{
-          line-height: 1;
-          font-size: 55px;
-          font-family: Hind, sans-serif;
-          color: #0e1133;
-          margin-top: 0;
-          font-weight: 700;
-
-          :first-child{
-            font-weight: 300;
-            display: block;
-          }
-          .yellow-shape{
-            position: relative;
-            z-index: 1;
-            img{
-              width: 100%;
-              position: absolute;
-              bottom: 22px;
-              left: -8px;
-              z-index: -1;
-              vertical-align: middle;
-             
-              animation: section-animation 3s infinite;
+        .left-content{
+          h3{
+            line-height: 1;
+            font-size: 55px;
+            font-family: Hind, sans-serif;
+            color: #0e1133;
+            margin-top: 0;
+            font-weight: 700;
+  
+            :first-child{
+              font-weight: 300;
+              display: block;
+            }
+            .yellow-shape{
+              position: relative;
+              z-index: 1;
+              img{
+                width: 100%;
+                position: absolute;
+                bottom: 22px;
+                left: -8px;
+                z-index: -1;
+                vertical-align: middle;
+               
+                animation: section-animation 3s infinite;
+              }
             }
           }
+          p{
+            font-size: 22px;
+            color: #0e1133;
+            padding-right: 130px;
+            line-height: 30px;
+            margin-bottom: 28px;
+          }
+          .button-courses{
+            display: inline-block;
+            height: 50px;
+            line-height: 52px;
+            text-align: center;
+            padding: 0 25px;
+            color: #fff;
+            background: #2b4eff;
+            border-radius: 4px;
+            font-weight: 500;
+            
+          }
         }
-        p{
-          font-size: 22px;
-          color: #0e1133;
-          padding-right: 130px;
-          line-height: 30px;
-          margin-bottom: 28px;
-        }
-        .button-courses{
-          display: inline-block;
-          height: 50px;
-          line-height: 52px;
-          text-align: center;
-          padding: 0 25px;
-          color: #fff;
-          background: #2b4eff;
-          border-radius: 4px;
-          font-weight: 500;
-          outline: none;
-          border: none;
-        }
+        
       }
       .right{
        width: 50%;
@@ -298,7 +300,8 @@
         position: absolute;
         z-index: -1;
         bottom: -25px;
-        left: -30px;
+        left: -15px;
+        animation: hero-1-dot 5s linear 0s infinite alternate;
        }
        .hero-1-circle-3{
         position: absolute;
